@@ -1,0 +1,137 @@
+.service-main {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.service-main .card-1 {
+    width: 100%;
+    height: 400px;
+    background-image: url('../../img/service-1.jpg');
+    background-size: cover;
+}
+
+.service-main .card-1 h2 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px orangered;
+}
+
+.service-main .card-2 {
+    width: 100%;
+    height: 400px;
+    background-image: url('../../img/service-2.jpg');
+    background-size: cover
+}
+
+.service-main .card-2 h2 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px orangered;
+}
+.service-main .card-3 {
+    width: 100%;
+    height: 400px;
+    background-image: url('../../img/service-3.jpg');
+    background-size: cover
+}
+
+.service-main .card-3 h2 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px orangered;
+}
+.service-main .card-4 {
+    width: 100%;
+    height: 400px;
+    background-image: url('../../img/service-4.jpg');
+    background-size: cover
+}
+
+.service-main .card-4 h2 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px orangered;
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .service-main .card-1{
+        width: 100%;
+        height: 800px;
+    }
+    .service-main .card-1 h2 {
+       font-size: 20px;
+    }
+    .service-main .card-2{
+        width: 100%;
+        height: 800px;
+    }
+    .service-main .card-2 h2 {
+       font-size: 20px;
+    }
+    .service-main .card-3{
+        width: 100%;
+        height: 800px;
+    }
+    .service-main .card-3 h2 {
+       font-size: 20px;
+    }
+    .service-main .card-4{
+        width: 100%;
+        height: 800px;
+    }
+    .service-main .card-4 h2 {
+       font-size: 20px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 577px)  {
+    .service-main .card-1{
+        width: 100%;
+        height: 800px;
+    }
+    .service-main .card-2{
+        width: 100%;
+        height: 800px;
+    }
+    .service-main .card-3{
+        width: 100%;
+        height: 800px;
+    }
+    .service-main .card-4{
+        width: 100%;
+        height: 800px;
+    }
+}
+@media only screen and (max-width:992px) and (min-width: 769px)  {
+    .service-main .card-1{
+        width: 100%;
+        height: 800px;
+    }
+    .service-main .card-2{
+        width: 100%;
+        height: 800px;
+    }
+    .service-main .card-3{
+        width: 100%;
+        height: 800px;
+    }
+    .service-main .card-4{
+        width: 100%;
+        height: 800px;
+    }
+}
