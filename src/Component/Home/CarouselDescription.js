@@ -7,7 +7,7 @@ const CarouselDescription = () => {
             <h1>KEEP YOUR BODY</h1>
             <h2>FIT & STRONG</h2>
             <p>BLACKFIT – fitness health center where your body gets its shape! <br/>  Start training now to stay fit and healthy all year round!</p>
-            <button class="btn">LET'S TRAIN</button>
+            <a href="#" className='train'>LET'S TRAIN</a>
         </div>
     );
 };

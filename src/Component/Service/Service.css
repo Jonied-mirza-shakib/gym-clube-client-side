@@ -15,9 +15,10 @@
     text-align: center;
     padding-top: 150px;
     font-size: 40px;
-    color: white;
     font-weight: bold;
-    text-shadow: 3px 3px orangered;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
 }
 
 .service-main .card-2 {
@@ -31,9 +32,10 @@
     text-align: center;
     padding-top: 150px;
     font-size: 40px;
-    color: white;
     font-weight: bold;
-    text-shadow: 3px 3px orangered;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
 }
 .service-main .card-3 {
     width: 100%;
@@ -46,9 +48,10 @@
     text-align: center;
     padding-top: 150px;
     font-size: 40px;
-    color: white;
     font-weight: bold;
-    text-shadow: 3px 3px orangered;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
 }
 .service-main .card-4 {
     width: 100%;
@@ -61,9 +64,10 @@
     text-align: center;
     padding-top: 150px;
     font-size: 40px;
-    color: white;
     font-weight: bold;
-    text-shadow: 3px 3px orangered;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
 }
 
 
