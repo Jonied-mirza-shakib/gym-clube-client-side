@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "img":"https://i.ibb.co/gSLqJkv/price1-bg.jpg",
+        "price":200,
+        "description":"Health and Fitness Tips Personal Health Solution Diet Plan Included",
+        "month":"per month"
+    },
+    {
+        "id":2,
+        "img":"https://i.ibb.co/hB49xFf/price2-bg.jpg",
+        "price":300,
+        "description":"Membership Card Health and Fitness Tips Personal Health Solution Diet Plan Included",
+        "month":"per month"
+    },
+    {
+        "id":3,
+        "img":"https://i.ibb.co/LvfG4LT/price3-bg.jpg",
+        "price":500,
+        "description":"Membership Card Health and Fitness Tips Personal Health Solution Diet Plan Included 6 Days a Week Zumba Classes",
+        "month":"per month"
+    }
+]

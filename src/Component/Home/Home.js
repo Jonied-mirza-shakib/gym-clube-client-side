@@ -1,6 +1,7 @@
 import React from 'react';
 import Gallery from '../Gallery/Gallery';
 import HomeDescription from '../HomeDescription/HomeDescription';
+import ProgramPricing from '../ProgramPricing/ProgramPricing';
 import Service from '../Service/Service';
 import WhoWeAre from '../WhoWeAre/WhoWeAre';
 import WhyChooseUs from '../WhyChooseUs/WhyChooseUs';
@@ -16,6 +17,7 @@ const Home = () => {
             <WhoWeAre></WhoWeAre>
             <Gallery></Gallery>
             <WhyChooseUs></WhyChooseUs>
+            <ProgramPricing></ProgramPricing>
         </div>
     );
 };

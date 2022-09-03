@@ -1,0 +1,82 @@
+.overlay{
+    background-color: black;
+    display: block;
+}
+.programing-pricing-main{
+    width: 100%;
+    height: 800px;
+    background-image: url('../../img/pricing-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.programing-pricing-main .programing-pricing-description{
+    width: 90%;
+    margin: auto;
+}
+.programing-pricing-main .programing-pricing-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.programing-pricing-main .programing-pricing-description h2{
+    font-size: 70px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.programing-pricing-main .programing-pricing-description .card{
+    width: 100%;
+    height: 600px;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+.programing-pricing-main .programing-pricing-description .card .card-description{
+    background-color: black;
+    margin-top: 50px;
+    text-align: center;
+}
+.programing-pricing-main .programing-pricing-description .card .card-description p{
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+}
+.programing-pricing-main .programing-pricing-description .card .card-description h5{
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+.programing-pricing-main .programing-pricing-description .card .card-description h6{
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 576px) {
+    .programing-pricing-main{
+        width: 100%;
+        height: auto;
+    }
+    .programing-pricing-main .programing-pricing-description h2{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 577px)  {
+    .programing-pricing-main{
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (max-width:992px) and (min-width: 769px)  {
+    .programing-pricing-main{
+        width: 100%;
+        height: auto;
+    }
+}

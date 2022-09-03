@@ -11,8 +11,8 @@
     font-size: 20px;
     text-align: center;
     color: white;
-    line-height: 1.6em;
     font-weight: bold;
+    font-family: sans-serif;
 }
 .home-description-main h3 .home-quote{
     font-size: 30px;

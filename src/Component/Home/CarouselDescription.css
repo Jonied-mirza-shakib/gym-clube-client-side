@@ -19,12 +19,14 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
     padding-bottom: 5px;
+    font-family: sans-serif;
 }
 
 .carousel-description-main p {
     margin-bottom: 20px;
     font-size: 16px;
     opacity: 0.5;
+    font-family: sans-serif;
 }
 
 .carousel-description-main .train {
