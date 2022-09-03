@@ -12,11 +12,11 @@ const Gallery = () => {
         })
     },[])
     return (
-        <div className='grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-3 gallery'>
+        <div className='grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6 lg:gap-3 gallery'>
             {
                 gallery.map(allGallery=>
                    <div className='shadow-2xl'>
-                    <img src={allGallery.img} alt=""/>
+                    <img className='w-full' src={allGallery.img} alt=""/>
                    </div>
                     )
             }
