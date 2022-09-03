@@ -1,0 +1,40 @@
+.carousel-first-img{
+    width: 100%;
+    height: 700px;
+    background-image: url('../../img/carusal-1.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-second-img{
+    width: 100%;
+    height: 700px;
+    background-image: url('../../img/carusal-2.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-third-img{
+    width: 100%;
+    height: 700px;
+    background-image: url('../../img/carusal-3.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-four-img{
+    width: 100%;
+    height: 700px;
+    background-image: url('../../img/carusal-4.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

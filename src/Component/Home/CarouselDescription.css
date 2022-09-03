@@ -1,0 +1,47 @@
+.carousel-description-main{
+   color: white;
+}
+.carousel-description-main h1{
+    font-size: 70px;
+    text-shadow: 8px 8px orangered;
+    font-weight: bold;
+}
+.carousel-description-main h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.carousel-description-main p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    opacity: 0.5;
+}
+.carousel-description-main button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.carousel-description-main button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .carousel-description-main h1{
+        font-size: 30px;
+        text-shadow: 8px 8px orangered;
+        font-weight: bold;
+    }
+    .carousel-description-main h2{
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 5px;
+    }
+}
