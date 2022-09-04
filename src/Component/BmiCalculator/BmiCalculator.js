@@ -41,7 +41,7 @@ const BmiCalculator = () => {
         <div className='bg-black'>
             <div className='bmi-calculator-main'>
                 <h2>BMI Calculator</h2>
-                <div class="card w-96 bg-base-100 shadow-2xl">
+                <div class="card w-96 bg-base-200 shadow-2xl">
                     <div class="card-body">
                         <form onSubmit={bmiCalculator}>
 

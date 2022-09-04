@@ -27,10 +27,6 @@
     transition-delay: 0.3s;
     transform-origin: unset;
 }
-.allCoach-description{
-    margin-top: -150px;
-    text-align: center;
-}
 .allCoach-description h3{
     font-size: 30px;
     text-transform: uppercase;
@@ -38,6 +34,7 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
     font-family: sans-serif;
+    margin-top: -150px;
 }
 .allCoach-description p{
     font-size: 18px;
