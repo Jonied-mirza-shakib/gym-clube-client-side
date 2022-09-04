@@ -6,10 +6,7 @@ const Gallery = () => {
     useEffect(()=>{
         fetch('gallery.json')
         .then(res=>res.json())
-        .then(data=>{
-            console.log(data)
-            setGallery(data)
-        })
+        .then(data=>setGallery(data))
     },[])
     return (
         <div className='grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6 lg:gap-3 gallery'>

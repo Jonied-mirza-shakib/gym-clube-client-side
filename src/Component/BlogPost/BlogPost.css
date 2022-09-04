@@ -24,7 +24,7 @@
 .blog-post-description p{
     font-size: 16px;
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .post img{
     width: 100%;
@@ -37,4 +37,13 @@
 }
 .post:hover{
     cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+    .blog-post-description h1{
+        font-size: 30px;
+    }
+    .blog-post-description h2{
+        font-size: 30px;
+    }
 }
