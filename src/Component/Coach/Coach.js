@@ -19,8 +19,8 @@ const Coach = () => {
                 </div>
                 <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 shadow-2xl'>
                     {
-                        coach.map(allCoach => <div key={allCoach.id} className='animate__animated animate__fadeInLeftBig'>
-                            <img src={allCoach.img} alt="" />
+                        coach.map(allCoach => <div key={allCoach.id} className='animate__animated animate__fadeInLeftBig card'>
+                            <img className='w-full' src={allCoach.img} alt="" />
                             <div className='allCoach-description'>
                             <h3>{allCoach.name}</h3>
                             <p>{allCoach.description}</p>

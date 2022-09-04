@@ -1,4 +1,5 @@
 import React from 'react';
+import BmiCalculator from '../BmiCalculator/BmiCalculator';
 import Coach from '../Coach/Coach';
 import Gallery from '../Gallery/Gallery';
 import HomeDescription from '../HomeDescription/HomeDescription';
@@ -20,6 +21,7 @@ const Home = () => {
             <WhyChooseUs></WhyChooseUs>
             <ProgramPricing></ProgramPricing>
             <Coach></Coach>
+            <BmiCalculator></BmiCalculator>
         </div>
     );
 };

@@ -43,3 +43,9 @@
     font-size: 18px;
     color: white;
 }
+
+@media only screen and (max-width: 576px) {
+    .coach-description h1{
+        font-size: 30px;
+    }
+}
