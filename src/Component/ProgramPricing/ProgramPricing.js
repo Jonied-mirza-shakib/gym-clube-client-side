@@ -16,7 +16,7 @@ const ProgramPricing = () => {
                     <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                         {
                             pricing.map(pricings =>
-                                <div className='card'>
+                                <div className='card animate__animated animate__fadeInRightBig'>
                                     <img className='w-full' src={pricings.img} alt="" />
                                     <div className='card-description'>
                                         <p>{pricings.description}</p>

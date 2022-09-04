@@ -1,4 +1,5 @@
 import React from 'react';
+import Coach from '../Coach/Coach';
 import Gallery from '../Gallery/Gallery';
 import HomeDescription from '../HomeDescription/HomeDescription';
 import ProgramPricing from '../ProgramPricing/ProgramPricing';
@@ -18,6 +19,7 @@ const Home = () => {
             <Gallery></Gallery>
             <WhyChooseUs></WhyChooseUs>
             <ProgramPricing></ProgramPricing>
+            <Coach></Coach>
         </div>
     );
 };
