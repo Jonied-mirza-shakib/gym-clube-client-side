@@ -12,14 +12,9 @@
 }
 
 .carousel-description-main h2 {
-    font-size: 40px;
-    text-shadow: 2px 2px white;
+    font-size: 50px;
     font-weight: bold;
-    color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
-    padding-bottom: 5px;
-    font-family: sans-serif;
+    color: white;
 }
 
 .carousel-description-main p {
