@@ -9,6 +9,7 @@ import About from './Component/About/About';
 import Trainer from './Component/Trainer/Trainer';
 import Shop from './Component/Shop/Shop';
 import Blog from './Component/Blog/Blog';
+import ContactUs from './Component/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/trainer' element={<Trainer></Trainer>}></Route>
       <Route path='/shop' element={<Shop></Shop>}></Route>
       <Route path='/blog' element={<Blog></Blog>}></Route>
+      <Route path='/contact' element={<ContactUs></ContactUs>}></Route>
     </Routes>
     <Footer></Footer>
     <ToastContainer />
