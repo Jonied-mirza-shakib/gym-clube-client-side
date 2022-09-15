@@ -1,0 +1,118 @@
+.signUp-main{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.signUp-title h1{
+    font-size: 50px;
+    font-family: 700;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+   padding-bottom: 10px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-body .form{
+    width: 50%;
+    display: block;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+.card-body .form label{
+    font-size: 14px;
+    font-weight: 700;
+}
+.card-body .form input{
+    width: 100%;
+    display: block;
+    padding: 10px 15px;
+    outline-style: none;
+    border: 1px solid black;
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+}
+.card-body .form button{
+    width: 100%;
+    display: block;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+.card-body .form .a{
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.card-body .form .a:hover{
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .signUp-title h1{
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .card-body{
+        display: block;
+    }
+    .card-body .form{
+        width: 100%;
+    }
+    .card-body .form label{
+        font-size: 11px;
+    }
+    .card-body .form .a{
+        text-decoration: underline;
+        font-size: 10px;
+        font-weight: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 577px)  {
+    .signUp-title h1{
+        font-size: 35px;
+        font-family: 700;
+        font-family: sans-serif;
+        color: black;
+        text-align: center;
+       padding-bottom: 10px;
+    }
+    .card-body .form{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:992px) and (min-width: 769px)  {
+    .signUp-title h1{
+        font-size: 40px;
+        font-family: 700;
+        font-family: sans-serif;
+        color: black;
+        text-align: center;
+       padding-bottom: 10px;
+    }
+    .card-body .form{
+        width: 50%;
+        display: block;
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 10px;
+    }
+}

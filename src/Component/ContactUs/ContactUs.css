@@ -11,6 +11,16 @@
     font-family: sans-serif;
     text-transform: uppercase;
 }
+.contact-main .contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-main .contact-form form{
+    width: 70%;
+    display: block;
+}
 .contact-form form input{
     width: 100%;
     display: block;
@@ -25,4 +35,39 @@
     margin-bottom: 20px;
     padding: 10px;
     outline-style: none;
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .contact-main .contact-title{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+    .contact-main .contact-form form{
+        width: 100%;
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 577px)  {
+    .contact-main .contact-title{
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+}
+@media only screen and (max-width:992px) and (min-width: 769px)  {
+    .contact-main .contact-title{
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
 }

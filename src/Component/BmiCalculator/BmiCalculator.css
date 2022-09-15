@@ -16,6 +16,10 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+.bmi-calculator-main form{
+    display: block;
+    width: 500px;
+}
 .bmi-calculator-main form label{
     font-size: 20px;
     color: black;
