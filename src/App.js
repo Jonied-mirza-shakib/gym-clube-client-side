@@ -16,8 +16,13 @@ import Dashboard from './Component/Dashboard/Dashboard';
 import MyProfile from './Component/Dashboard/MyProfile';
 import AllUser from './Component/Dashboard/AllUser';
 import AllProduct from './Component/Dashboard/AllProduct';
-import ProgramingPricing from './Component/Dashboard/ProgramingPricing';
 import AllBlog from './Component/Dashboard/AllBlog';
+import ProgramingPricingPost from './Component/Dashboard/ProgramingPricingPost';
+import BlogPost from './Component/Dashboard/BlogPost';
+import GalleryPost from './Component/Dashboard/GalleryPost';
+import AllGallery from './Component/Dashboard/AllGallery';
+import CoachPost from './Component/Dashboard/CoachPost';
+import AllCoach from './Component/Dashboard/AllCoach';
 
 function App() {
   return (
@@ -32,9 +37,14 @@ function App() {
       <Route path='dashboard' element={<Dashboard></Dashboard>}>
       <Route index element={<MyProfile></MyProfile>}></Route>
       <Route path='allUser' element={<AllUser></AllUser>}></Route>
-      <Route path='programingPricing' element={<ProgramingPricing></ProgramingPricing>}></Route>
+      <Route path='programingPricing' element={<ProgramingPricingPost></ProgramingPricingPost>}></Route>
+      <Route path='blogPost' element={<BlogPost></BlogPost>}></Route>
+      <Route path='galleryPost' element={<GalleryPost></GalleryPost>}></Route>
+      <Route path='coachPost' element={<CoachPost></CoachPost>}></Route>
       <Route path='allPricing' element={<AllProduct></AllProduct>}></Route>
       <Route path='allBlog' element={<AllBlog></AllBlog>}></Route>
+      <Route path='allGallery' element={<AllGallery></AllGallery>}></Route>
+      <Route path='allCoach' element={<AllCoach></AllCoach>}></Route>
       </Route>
       <Route path='/contact' element={<ContactUs></ContactUs>}></Route>
       <Route path='/login' element={<Login></Login>}></Route>

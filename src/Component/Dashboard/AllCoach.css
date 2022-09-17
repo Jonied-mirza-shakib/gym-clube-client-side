@@ -1,4 +1,4 @@
-.programing-pricing-title{
+.allCoach-title{
     font-size: 40px;
     text-align: center;
     padding-top: 30px;
@@ -16,17 +16,17 @@
 
 
 @media only screen and (max-width: 576px) {
-    .programing-pricing-title{
+    .allCoach-title{
         font-size: 20px;
     }
 }
 @media only screen and (max-width: 768px) and (min-width: 577px)  {
-    .programing-pricing-title{
+    .allCoach-title{
         font-size: 25px;
     }
 }
 @media only screen and (max-width:992px) and (min-width: 769px)  {
-    .programing-pricing-title{
+    .allCoach-title{
         font-size: 30px;
     }
 }

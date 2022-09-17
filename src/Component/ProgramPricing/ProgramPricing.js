@@ -4,7 +4,7 @@ import './ProgramPricing.css'
 const ProgramPricing = () => {
     const [pricing, setPricing] = useState([]);
     useEffect(() => {
-        fetch('pricing.json')
+        fetch('http://localhost:5000/programPricing')
             .then(res => res.json())
             .then(data => setPricing(data))
     }, [])
@@ -15,13 +15,13 @@ const ProgramPricing = () => {
                     <h2>PROGRAM PRICING</h2>
                     <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                         {
-                            pricing.map(pricings =>
+                            pricing.map(allPrice =>
                                 <div className='card animate__animated animate__fadeInRightBig'>
-                                    <img className='w-full' src={pricings.img} alt="" />
+                                    <img className='w-full' src={allPrice.img} alt="" />
                                     <div className='card-description'>
-                                        <p>{pricings.description}</p>
-                                        <h5>$ {pricings.price}</h5>
-                                        <h6>{pricings.month}</h6>
+                                        <p>{allPrice.description}</p>
+                                        <h5>$ {allPrice.price}</h5>
+                                        <h6>{allPrice.month}</h6>
                                         <div className='free-consultation'>
                                             <a href="#">PURCHASE NOW</a>
                                         </div>

@@ -1,0 +1,70 @@
+.programing-pricing-title{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+    color: darkblue;
+    font-weight: 500;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.card-body .form{
+    width: 70%;
+    display: block;
+    background-color: gray;
+    padding: 50px;
+    border-radius: 10px;
+}
+.card-body .form label{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.card-body .form input,
+.card-body .form textarea{
+    width: 100%;
+    display: block;
+    padding: 10px 15px;
+    outline-style: none;
+    border: 1px solid black;
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.card-body .form button{
+    width: 100%;
+    display: block;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .programing-pricing-title{
+        font-size: 20px;
+    }
+    .card-body{
+        display: block;
+    }
+    .card-body .form{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 577px)  {
+    .programing-pricing-title{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:992px) and (min-width: 769px)  {
+    .programing-pricing-title{
+        font-size: 30px;
+    }
+}

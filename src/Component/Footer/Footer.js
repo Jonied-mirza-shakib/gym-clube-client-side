@@ -5,11 +5,11 @@ import { AiFillLinkedin, AiFillTwitterSquare } from 'react-icons/ai';
 
 const Footer = () => {
     const [gallery, setGallery] = useState([]);
-    useEffect(() => {
-        fetch('gallery.json')
-            .then(res => res.json())
-            .then(data => setGallery(data))
-    }, [])
+    // useEffect(() => {
+    //     fetch('gallery.json')
+    //         .then(res => res.json())
+    //         .then(data => setGallery(data))
+    // }, [])
     return (
         <div className='footer-main'>
             <div className='footer-details grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
