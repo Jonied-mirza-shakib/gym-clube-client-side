@@ -4,7 +4,7 @@ import './Gallery.css'
 const Gallery = () => {
     const [gallery,setGallery]=useState([]);
     useEffect(()=>{
-        fetch('gallery.json')
+        fetch('https://gym-clube-server-side-sa6u-git-main-jonied-mirza-shakib.vercel.app/gallery')
         .then(res=>res.json())
         .then(data=>setGallery(data))
     },[])

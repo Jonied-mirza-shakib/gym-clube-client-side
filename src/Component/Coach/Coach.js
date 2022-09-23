@@ -5,7 +5,7 @@ import 'animate.css';
 const Coach = () => {
     const [coach, setCoach] = useState([]);
     useEffect(() => {
-        fetch('coach.json')
+        fetch('https://gym-clube-server-side-sa6u-git-main-jonied-mirza-shakib.vercel.app/coach')
             .then(res => res.json())
             .then(data => setCoach(data))
     }, [])

@@ -21,26 +21,25 @@ const CoachPost = () => {
             .then(result => {
                 if (result.success) {
                     const image = result.data.url;
-                    const programPricing = {
-                        price: data.price,
-                        description: data.description,
-                        month: data.month,
+                    const coachDetails = {
+                        name:data.name,
+                        description:data.description,
                         img: image
                     }
-                    fetch('http://localhost:5000/programPricing', {
+                    fetch('https://gym-clube-server-side-sa6u-git-main-jonied-mirza-shakib.vercel.app/coach', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
                         },
-                        body: JSON.stringify(programPricing),
+                        body: JSON.stringify(coachDetails),
                     })
                         .then(res => res.json())
                         .then(data => {
                             console.log('Success:', data);
                             if (data.insertedId) {
-                                toast('Added Product Successfully')
+                                toast('Added coach Successfully')
                             } else {
-                                toast.error('Added Product field')
+                                toast.error('Added coach field')
                             }
 
                         })

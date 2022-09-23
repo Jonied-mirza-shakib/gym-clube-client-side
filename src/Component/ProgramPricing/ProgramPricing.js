@@ -4,7 +4,7 @@ import './ProgramPricing.css'
 const ProgramPricing = () => {
     const [pricing, setPricing] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/programPricing')
+        fetch('https://gym-clube-server-side-sa6u-git-main-jonied-mirza-shakib.vercel.app/programPricing')
             .then(res => res.json())
             .then(data => setPricing(data))
     }, [])

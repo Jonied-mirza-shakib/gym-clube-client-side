@@ -4,7 +4,7 @@ import './BlogPost.css'
 const BlogPost = () => {
     const [post, setPost] = useState([]);
     useEffect(()=>{
-        fetch('post.json')
+        fetch('https://gym-clube-server-side-sa6u-git-main-jonied-mirza-shakib.vercel.app/blog')
         .then(res=>res.json())
         .then(data=>setPost(data))
     },[])

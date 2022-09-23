@@ -1,50 +1,41 @@
 [
     {
-        "id":1,
         "img":"https://i.ibb.co/nwmSZ5D/gallery-1.jpg"
     },
     {
-        "id":2,
         "img":"https://i.ibb.co/Ht2RYvr/gallery-2.jpg"
     },
     {
-        "id":3,
         "img":"https://i.ibb.co/4thC6F8/gallery-3.jpg"
     },
     {
-        "id":4,
         "img":"https://i.ibb.co/y4x5k3t/gallery-4.jpg"
     },
     {
-        "id":5,
         "img":"https://i.ibb.co/nnZcbxQ/gallery-5.jpg"
     },
     {
-        "id":6,
         "img":"https://i.ibb.co/xgNFVMc/gallery-6.jpg"
     },
     {
-        "id":7,
         "img":"https://i.ibb.co/5kLz8sK/gallery-7.jpg"
     },
     {
-        "id":8,
         "img":"https://i.ibb.co/zfP3jMp/gallery-8.jpg"
     },
     {
-        "id":9,
         "img":"https://i.ibb.co/CMFD9Jd/gallery-9.jpg"
     },
     {
-        "id":10,
+
         "img":"https://i.ibb.co/z2frfFH/gallery-10.jpg"
     },
     {
-        "id":11,
+
         "img":"https://i.ibb.co/Xk6t9H3/gallery-11.jpg"
     },
     {
-        "id":12,
+
         "img":"https://i.ibb.co/wLxPRRz/gallery-12.jpg"
     }
 ]

@@ -29,7 +29,7 @@ const ProgramingPricingPost = () => {
                         description: data.description,
                         img: image
                     }
-                    fetch('http://localhost:5000/programPricing', {
+                    fetch('https://gym-clube-server-side-sa6u-git-main-jonied-mirza-shakib.vercel.app/programPricing', {
                         method: 'POST', // or 'PUT'
                         headers: {
                             'Content-Type': 'application/json',

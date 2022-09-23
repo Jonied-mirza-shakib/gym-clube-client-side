@@ -1,14 +1,49 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { toast } from 'react-toastify';
 import './GalleryPost.css'
 
 const GalleryPost = () => {
     const { register, formState: { errors }, handleSubmit,reset } = useForm();
 
-    const imgbbApi='19bf4cd9f8fbd132a1a0e00b0808ce6a';
+    const imageStorageApi = '19bf4cd9f8fbd132a1a0e00b0808ce6a';
 
     const onSubmit = (data) => {
         console.log(data)
+        const image = data.image[0];
+        const formData = new FormData();
+        formData.append('image', image);
+        const url = `https://api.imgbb.com/1/upload?key=${imageStorageApi}`
+        fetch(url, {
+            method: 'POST',
+            body: formData
+        })
+            .then(res => res.json())
+            .then(result => {
+                console.log(result)
+                if (result.success) {
+                    const image = result.data.url;
+                    const galleryDetails = {
+                        img: image
+                    }
+                    fetch('https://gym-clube-server-side-sa6u-git-main-jonied-mirza-shakib.vercel.app/gallery', {
+                        method: 'POST', // or 'PUT'
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(galleryDetails),
+                    })
+                        .then((response) => response.json())
+                        .then((result) => {
+                            console.log('Success:', result);
+                            if (result.insertedId) {
+                                toast('Added gallery Successfully')
+                              } else {
+                                toast.error('Added gallery field')
+                              }
+                        })
+                }
+            })
         reset()
     };
     return (
